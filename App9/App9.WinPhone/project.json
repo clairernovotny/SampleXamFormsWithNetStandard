@@ -1,0 +1,14 @@
+﻿{
+  "dependencies": {
+  },
+  "frameworks": {
+    "wpa81": {
+    }
+  },
+  "runtimes": {
+    "win": {},
+    "win-arm": {},
+    "win-x86": {},
+    "win-anycpu": {}
+  }
+}

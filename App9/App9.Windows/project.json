@@ -1,0 +1,15 @@
+﻿{
+  "dependencies": {
+  },
+  "frameworks": {
+    "netcore451": {
+    }
+  },
+  "runtimes": {
+    "win": {},
+    "win-arm": {},
+    "win-x86": {},
+    "win-x64": {},
+    "win-anycpu": {}
+  }
+}
