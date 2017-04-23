@@ -24,6 +24,7 @@
     <JavaMaximumHeapSize />
     <JavaOptions />
     <CopyNuGetImplementations>true</CopyNuGetImplementations>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
