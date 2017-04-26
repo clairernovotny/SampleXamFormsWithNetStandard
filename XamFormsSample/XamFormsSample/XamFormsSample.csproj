@@ -11,6 +11,11 @@
   </ItemGroup>
   
   <ItemGroup>
+    <None Remove="MainPage.xaml" />
+    <None Remove="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="App.xaml.cs" DependentUpon="App.xaml" />
     <Compile Update="MainPage.xaml.cs" DependentUpon="MainPage.xaml" />
     <EmbeddedResource Include="MainPage.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
