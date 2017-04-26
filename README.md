@@ -1,1 +1,1 @@
-This is a sample solution showing how to use Xamarin Forms with .NET Standard and `project.json` everywhere. Full blog post explaining this repo here: https://oren.codes/2016/07/09/using-xamarin-forms-with-net-standard/
+This is a sample solution showing how to use Xamarin Forms with .NET Standard class libraries. Full blog post explaining this repo here: https://oren.codes/2017/04/23/using-xamarin-forms-with-net-standard-vs-2017-edition/
