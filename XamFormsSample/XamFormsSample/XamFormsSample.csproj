@@ -11,6 +11,11 @@
   </ItemGroup>
   
   <ItemGroup>
+    <!-- https://bugzilla.xamarin.com/show_bug.cgi?id=55591 -->
+    <None Remove="**\*.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="App.xaml.cs" DependentUpon="App.xaml" />
     <Compile Update="MainPage.xaml.cs" DependentUpon="MainPage.xaml" />
     <EmbeddedResource Include="MainPage.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
