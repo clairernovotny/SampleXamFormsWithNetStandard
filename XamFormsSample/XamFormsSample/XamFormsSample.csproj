@@ -13,13 +13,9 @@
   <ItemGroup>
     <!-- https://bugzilla.xamarin.com/show_bug.cgi?id=55591 -->
     <None Remove="**\*.xaml" />
+    
+    <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
+    <EmbeddedResource Include="**\*.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="App.xaml.cs" DependentUpon="App.xaml" />
-    <Compile Update="MainPage.xaml.cs" DependentUpon="MainPage.xaml" />
-    <EmbeddedResource Include="MainPage.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
-    <EmbeddedResource Include="App.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
-  </ItemGroup>
-  
 </Project>
