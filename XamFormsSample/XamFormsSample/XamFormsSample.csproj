@@ -11,8 +11,8 @@
   </ItemGroup>
   
   <ItemGroup>
-    <None Remove="MainPage.xaml" />
-    <None Remove="App.xaml" />
+    <!-- https://bugzilla.xamarin.com/show_bug.cgi?id=55591 -->
+    <None Remove="**\*.xaml" />
   </ItemGroup>
 
   <ItemGroup>
